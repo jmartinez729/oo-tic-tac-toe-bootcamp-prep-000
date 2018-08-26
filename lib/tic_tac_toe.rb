@@ -27,7 +27,9 @@ class TicTacToe
   end
   
   def move(index, current_player)
-  @board[index] = current_player
-end
+    @board[index] = current_player
+  end
+  
+  
   
 end 
